@@ -1,0 +1,12 @@
+#contactDiv{
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#contact{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+}
