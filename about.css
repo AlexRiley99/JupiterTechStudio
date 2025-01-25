@@ -1,0 +1,34 @@
+#contactDiv{
+    margin: auto;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    
+}
+#contact{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    grid-column: span 2;
+}
+#alexContact, #derekContact{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+#alexContact{
+    margin-left: 70%;
+    margin-right: 10%;
+}
+#derekContact{
+    margin-right: 70%;
+}
+.position{
+    font-weight: bold;
+    font-style: italic;
+}

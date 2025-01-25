@@ -21,19 +21,20 @@
     color: var(--darkBlue);
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
-.footer{
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-}
 h3{
+    text-align: center;
     font-family: 'Exo 2', sans-serif;
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    color: var(--darkBlue);
 }
 
 .footer_div{
     border-top: 5px double var(--darkBlue);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    font-weight: bold;
 }
 
 html {
