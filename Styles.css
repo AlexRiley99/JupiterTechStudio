@@ -1,0 +1,24 @@
+:root{
+    --darkSienna: #300e01;
+    --lightCream: #f7eee1;
+    --redSpot: #802c0e;
+    --brown: #853e1b;
+    --text: #1c0803;
+}
+
+html{
+    background-image:
+        linear-gradient(to bottom right, 
+        rgb(48, 14, 1, 1), 
+        rgb(247, 238, 225, 0.5), 
+        rgb(133, 62, 27, 0.5), 
+        rgb(128, 44, 14, 0.5), 
+        rgb(247, 238, 225, 0.5), 
+        rgb(48, 14, 1, 1)),
+            url('Images/SpaceStockFootage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
