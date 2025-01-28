@@ -78,9 +78,11 @@ html {
 }
 button:hover{
     background-color: rgba(7, 2, 54, 1.0);
+    box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
 button:active{
     background-color: #120685;
+    box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
 
 .redSpot{
