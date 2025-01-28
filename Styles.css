@@ -19,13 +19,12 @@
     font-style: italic;
     font-family: 'Orbitron', sans-serif;
     color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
 }
-h3{
-    text-align: center;
+h3, h2{
     font-family: 'Exo 2', sans-serif;
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-    color: var(--darkBlue);
+    text-shadow: 3px 2px 3px var(--darkBlue), -3px -2px 3px var(--darkBlue);
+    color: var(--lightCream);
 }
 
 .footer_div{
@@ -80,4 +79,11 @@ button:hover{
 }
 button:active{
     background-color: #120685;
+}
+
+.redSpot{
+    background-color: rgba(48, 14, 1, 0.5);
+    border: 5px double var(--redSpot);
+    padding: 5px;
+    border-radius: 10px;
 }
