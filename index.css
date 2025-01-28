@@ -1,0 +1,29 @@
+#homeContainer{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+#infoDiv, #contactMe{
+    margin: auto 10px;
+}
+
+@media (max-width: 1024px){
+    #homeContainer{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+        align-items: start;
+    }
+    #infoDiv{
+        grid-column: 1;
+        margin-left: 20%;
+    }
+    #contactMe{
+        grid-column: 2;
+        margin-right: 20%;
+    }
+}
