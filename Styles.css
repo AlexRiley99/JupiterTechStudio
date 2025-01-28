@@ -35,6 +35,7 @@ h3, h2{
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
     font-weight: bold;
     padding-bottom: 5px;
+    margin-top: 10px;
 }
 
 html {
