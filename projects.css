@@ -113,9 +113,15 @@
     color: #f7eee1;
     text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
     border-bottom: 5px double var(--darkBlue);
+    padding-bottom: 15px;
 }
 
 .lastDescriptionDiv{
     color: #f7eee1;
     text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
+}
+
+.checkItOut{
+    text-decoration: none;
+    color: #f7eee1;
 }
