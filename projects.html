@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <script src="projects.js"></script>
 </head>
 <body>
     <div class="navbar_div">
@@ -17,9 +18,112 @@
         </navbar>
         <h1 class="title">Projects</h1>
         <h2 class="subtitle">See What I've Accomplished</h2>
-        <h3 class="subtitle">Websites and Web Applications</h3>
-        <h3 class="subtitle">Mobile Applications</h3>
-        <h3 class="subtitle">Coming Soon - My Works In Progress</h3>
+
+        <div id="jumpToDiv" class="redSpot">
+            <h4 id="jumpToLabel">Jump To:</h4>
+            <h4>
+                    <a href="#websites" class="jumpTo">Websites and Web Applications</a></li><br>
+                <ul>
+                    <li><a href="#sundustPhotography" class="jumpTo">Sundust Photography Website</a></li>
+                    <li><a href="#groceryListMaker" class="jumpTo">Grocery List Maker</a></li>
+                </ul>
+                    <a href="#mobileApps" class="jumpTo">Mobile Applications</a><br>
+                    <a href="#comingSoon" class="jumpTo">Coming Soon</a>
+                <ul>
+                    <li><a href="#critterMcCool" class="jumpTo">Critter McCool Appointment Scheduling</a></li>
+                </ul>
+                
+            </h4>
+        </div>
+
+        <div id="overlay">
+            <img id="expandedImage" src="">
+            <button id="closeButton">&#10005;</button>
+        </div>
+
+       <h3 class="subtitle" id="websites">Websites and Web Applications</h3>
+        <h3 id=sundustPhotography>Sundust Photography</h3>
+        <div class="carousel" id="sundustCarousel">
+            <div class="carousel-inner">
+                <img src="Images/Sundust Photography/SundustHome.png" class="carousel-item active">
+                <img src="Images/Sundust Photography/SundustAbout.png" class="carousel-item">
+                <img src="Images/Sundust Photography/SundustGallery.png" class="carousel-item">
+                <img src="Images/Sundust Photography/SundustGallery2.png" class="carousel-item">
+                <img src="Images/Sundust Photography/SundustPricing.png" class="carousel-item">
+            </div>
+            <button class="carousel-control prev">&#10094;</button> 
+            <button class="carousel-control next">&#10095;</button>
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+            </div>
+        </div>
+        <div class="descriptionDiv">
+            <p>
+                This is a website that I developed for a freelance photographer in my area.
+                It includes a Home page, an About page, a Gallery page, and a Pricing page. 
+                The Gallery page includes two columns with images that this photographer has taken.
+                When an image is clicked, it expands so that the user can view it more closely. The "X"
+                button can be clicked to return the image to its original size. 
+            </p>
+            <p>
+                The background includes a warm semi-transparent radial gradient overlayed onto an image of film grain. Dark blue 
+                semi-transparent buttons compliment the warm background and increase in opacity when hovered over.
+                The same shade of dark blue is used for headers and some of the text as well, balancing the warmth of 
+                the background with cool accents. 
+            </p>
+        </div>
+
+        <h3 id="groceryListMaker">Grocery List Maker</h3>
+        <div class="carousel" id="groceryCarousel">
+            <div class="carousel-inner">
+                <img src="Images/GroceryListMaker/Grocery1.png" class="carousel-item active">
+                <img src="Images/GroceryListMaker/Grocery2.png" class="carousel-item">
+                <img src="Images/GroceryListMaker/Grocery3.png" class="carousel-item">
+                <img src="Images/GroceryListMaker/Grocery4.png" class="carousel-item">
+                <img src="Images/GroceryListMaker/Grocery5.png" class="carousel-item">
+                <img src="Images/GroceryListMaker/Grocery6.png" class="carousel-item">
+                <img src="Images/GroceryListMaker/Grocery7.png" class="carousel-item">
+            </div>
+            <button class="carousel-control prev">&#10094;</button> 
+            <button class="carousel-control next">&#10095;</button>
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+            </div>
+        </div>
+        <div class="descriptionDiv">
+            <p>
+                This is a web application that I developed to make it easier to manage a grocery list while
+                maintaining a budget. The user begins by entering a budget amound and clicking "Set Budget" 
+                to lock it in. Next, the user enters the grocery items they want on their list, the quantity 
+                of each item that they need to buy, and the expected cost of one unit of each item. After entering
+                each item, the user can click the "Add" button to add the item to their list. The item will then be 
+                displayed in the "Your List" section and the running total will be calculated. 
+            </p>
+            <p>
+                When the user clicks
+                "Done", the total of their grocery list will be subtracted from their budget amount. The total as well
+                as the difference between the total and budget amount will be displayed at the bottom of the screen. Below that
+                is a message telling the user whether they're over or under budget, and by how much. The user may click the "Edit"
+                button and use the editor to replace or remove items as they wish, until they are satisfied with their grocery list. 
+            </p>
+            <p>
+                It includes a semi-transparent cool brown gradient over a paper texture. The buttons are a chocolate brown color, which seemed
+                fitting for the theme of groceries and food. The background includes an image of a produce section, featuring fresh green vegetables.
+                This, again, goes with the grocery theme in addition to keeping the user in a food-centric mindset to aid them in the list making process.
+            </p>
+        </div>
+        <h3 class="subtitle" id="mobileApps">Mobile Applications</h3>
+        <h3 class="subtitle" id="comingSoon">Coming Soon - My Works In Progress</h3>
     </div>
     <div class="footer_div">
         <footer>
