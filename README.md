@@ -74,5 +74,5 @@ semi-transparent linear gradient overlayed onto a stock image of space.
 Report issues to jupitertechstudio@gmail.com
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Credits
-####Alex Riley
+#### Alex Riley
 - Designed and developed the website
