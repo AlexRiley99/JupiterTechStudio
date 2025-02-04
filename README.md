@@ -70,8 +70,7 @@ semi-transparent linear gradient overlayed onto a stock image of space.
 -  The "Jump To" section on the Projects Page will be fixed to the top of the page so that the user can jump to anywhere from anywhere without having to scroll back to the top of the page
 -  The mobile app projects will be made more visually interesting, just like the web applications
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Report Issues
-Report issues to jupitertechstudio@gmail.com
+## Report Issues to jupitertechstudio@gmail.com
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Credits
 #### Alex Riley
