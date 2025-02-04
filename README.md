@@ -1,6 +1,6 @@
-#Jupiter Tech Studio Website
-**##My personal website and brand**
-**_####Alex Riley_**
+# Jupiter Tech Studio Website
+**## My personal website and brand**
+**_#### Alex Riley_**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **##What It Is/What It Does**
   **_###Home Page_**
