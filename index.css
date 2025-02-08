@@ -7,6 +7,11 @@
     margin: auto 10px;
 }
 
+#europaHome{
+    text-align: center;
+    margin: 20px auto;
+    width: 40%;
+}
 /*@media (max-width: 1024px){
     #homeContainer{
         width: 100%;
