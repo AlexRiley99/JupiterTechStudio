@@ -16,15 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             url: 'https://general-runtime.voiceflow.com', // URL of the Voiceflow runtime server
             versionID: 'production' // Set to 'production' to load the production version
           });
-
-          // Wait until the widget is fully loaded and then log its HTML to the console
-      setTimeout(() => {
-        const widgetContainer = document.querySelector('vfrc-widget _1emja3f0 _1emja3f2');  
-        if (widgetContainer) {
-          console.log(widgetContainer.outerHTML);  // Log the widget's HTML to the console
         }
-      }, 2000);  // Adding a short delay to ensure the widget is loaded
-    }
         
         // Set the source for the newly created script element to load a specific JavaScript file
         v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; // This is the URL for the Voiceflow widget's script
