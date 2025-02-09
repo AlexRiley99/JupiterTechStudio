@@ -1,3 +1,5 @@
+let hasGreeted = false;  // Flag to track if the greeting has been sent
+
 // Adding an event listener that waits for the DOM to fully load
 document.addEventListener('DOMContentLoaded', () => {
   
@@ -16,6 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
             url: 'https://general-runtime.voiceflow.com', // URL of the Voiceflow runtime server
             versionID: 'production' // Set to 'production' to load the production version
           });
+
+          //Prevent greeting from repeating
+          if (!hasGreeted) {
+            // Trigger the greeting message
+            window.voiceflow.chat.sendMessage("Hi! I'm Europa! What can I do for you today?");
+            
+            // Set the flag to true to prevent future greetings
+            hasGreeted = true;
+          }
         }
         
         // Set the source for the newly created script element to load a specific JavaScript file
