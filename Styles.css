@@ -37,6 +37,14 @@ h3, h2{
     padding-bottom: 5px;
     margin-top: 10px;
 }
+.footer_div a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    font-weight: bold;
+}
 
 html {
     background:
