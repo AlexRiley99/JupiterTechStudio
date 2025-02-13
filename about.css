@@ -1,7 +1,14 @@
+:root{
+    --darkSienna: #300e01;
+    --lightCream: #f7eee1;
+    --redSpot: #802c0e;
+    --brown: #853e1b;
+    --darkBlue: #070236;
+}
 #aboutPageContainer{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 2;
     gap: 10px;
     align-items: start;
     margin-left: 5px;
@@ -25,6 +32,7 @@
     text-align: center;
     grid-column: 3;
     align-self: start;
+    grid-row: 1;
 }
 #contact{
     margin-bottom: 0;
@@ -37,11 +45,60 @@
     font-style: italic;
 }
 
+#credentialsDiv{
+    margin-top: 5px;
+}
+#credentials{
+    text-align: center;
+    text-decoration: underline;
+}
+#credentialsGrid {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+.credential{
+    padding: 10px;
+    margin: auto;
+}
+#bachelorsDegree, #rwdCertification {
+    display: grid;
+    grid-template-columns: 2; 
+    grid-gap: 10px; 
+    text-shadow: 3px 2px 3px var(--darkBlue), -3px -2px 3px var(--darkBlue);
+    color: var(--lightCream);
+    font-size: 17px;
+    margin: 5px;
+    
+}
+#bachelorsDegree{
+    grid-row: 1;
+}
+#rwdCertification{
+    grid-row: 2;
+}
+
+.credential {
+    grid-column: 1; 
+    text-align: left; 
+}
+
+.buttonDiv {
+    grid-column: 2; 
+    text-align: right; 
+}
+
+.viewBtn{
+    width: 100px;
+    padding: 10px;
+}
+
+
 @media (max-width: 1024px){
     #aboutPageContainer{
         grid-template-columns: 1fr; 
     }
-    #aboutDiv, #contactDiv{
+    #aboutDiv, #contactDiv, #credentialsDiv{
         grid-column: 1;
     }
     #contactDiv{
