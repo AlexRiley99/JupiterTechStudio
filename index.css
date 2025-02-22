@@ -10,7 +10,11 @@
 #europaHome{
     text-align: center;
     margin: 20px auto;
-    width: 40%;
+    width: 80%;
+}
+p{
+    color: #f7eee1;
+    text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
 }
 /*@media (max-width: 1024px){
     #homeContainer{
