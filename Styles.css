@@ -33,9 +33,11 @@ h3, h2, h4{
     font-family: 'Orbitron', sans-serif;
     color: var(--darkBlue);
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-    font-weight: bold;
     padding-bottom: 5px;
     margin-top: 10px;
+    background: 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+    width: 100%;
 }
 .footer_div a{
     text-align: center;
@@ -48,13 +50,18 @@ h3, h2, h4{
 
 html {
     background:
-        linear-gradient(to bottom right, 
-            rgba(48, 14, 1, 1), 
-            rgba(247, 238, 225, 0.5), 
-            rgba(133, 62, 27, 0.5), 
-            rgba(128, 44, 14, 0.5), 
-            rgba(247, 238, 225, 0.5), 
-            rgba(48, 14, 1, 1)),
+        radial-gradient(ellipse, 
+            white,
+            rgba(247, 238, 225, 0.9), 
+            rgba(190, 146, 212, 0.8), 
+            rgba(154, 107, 178, 0.8), 
+            rgba(75, 21, 116, 0.7),
+            rgba(53, 8, 76, 0.6),
+            rgba(43, 7, 69, 0.5),
+            rgba(19, 4, 68, 0.5),
+            rgba(3, 3, 73, 0.4),
+            rgba(35, 7, 90, 0.3),
+            black),
         url('Images/SpaceStockFootage.jpg');
     background-size: cover;
     background-position: center;
@@ -76,24 +83,24 @@ html {
 .navBtn, button{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    background-color: rgba(7, 2, 54, 0.5);
+    background-color: rgba(20, 3, 175, 0.5);
     color: var(--lightCream);
     margin: auto;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
 }
 button:hover{
-    background-color: rgba(7, 2, 54, 1.0); 
+    background-color: rgba(23, 3, 202, 1.0);
     box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
 button:active{
-    background-color: #120685;
+    background-color: #1b02f5;
     box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
 
-.redSpot{
+.redSpot, .descriptionDiv{
     background-color: rgba(48, 14, 1, 0.5);
     border: 5px double var(--redSpot);
     padding: 5px;

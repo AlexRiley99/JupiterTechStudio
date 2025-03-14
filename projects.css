@@ -112,11 +112,6 @@
 .descriptionDiv{
     color: #f7eee1;
     text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
-    border-bottom: 5px double var(--darkBlue);
-    border-right: 5px double var(--darkBlue);
-    border-left: 5px double var(--darkBlue);
-    border-radius: 10px;
-    padding: 15px;
     width: 80%;
     margin: 20px auto;
 }
@@ -131,4 +126,13 @@
 .checkItOut{
     text-decoration: none;
     color: #f7eee1;
+}
+
+#toTop{
+    padding: 10px;
+}
+#toTopContainer{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
 }

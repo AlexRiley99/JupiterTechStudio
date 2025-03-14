@@ -16,7 +16,36 @@ p{
     color: #f7eee1;
     text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
 }
-/*@media (max-width: 1024px){
+#logoDiv{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    
+}
+#logo{
+    width: 200px;
+}
+#brandName{
+    display: inline-block;
+    position: absolute;
+    top: 125px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#myName{
+    text-align: right;
+    margin-left: 80%;
+    width: 100px;
+    padding: 0;
+}
+
+@media (max-width: 1024px){
     #homeContainer{
         width: 100%;
         text-align: center;
@@ -35,7 +64,19 @@ p{
         grid-column: 2;
         margin-right: 0;
     }
-}*/
+    #logoDiv{
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+    #brandName{
+        position: static;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 50px;
+    }
+}
 
 @media (max-width: 768px){
     #homeContainer{
@@ -53,5 +94,20 @@ p{
     }
     #contactMe{
         grid-column: 1;
+    }
+    #logoDiv{
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+    #logo{
+        width: 100px;
+    }
+    #brandName{
+        position: static;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 50px;
     }
 }
