@@ -72,8 +72,8 @@ html {
 @media (max-width: 768px){
     html{
         background-size: contain;
-        background-position: center;
-        height: 100vh;
+        background-position: center top;
+        height: auto;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
