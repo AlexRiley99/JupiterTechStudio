@@ -62,7 +62,7 @@ html {
             rgba(3, 3, 73, 0.4),
             rgba(35, 7, 90, 0.3),
             black),
-        url('Images/SpaceStockFootage.jpg');
+        url('Images/SpaceStockFootage.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
