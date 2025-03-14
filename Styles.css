@@ -71,10 +71,10 @@ html {
 }
 @media (max-width: 768px){
     html{
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         height: 100vh;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-attachment: fixed;
     }
 }
@@ -83,7 +83,7 @@ html {
         background-size: cover;
         background-position: center;
         height: 100vh;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-attachment: fixed;
     }
 }
