@@ -9,26 +9,29 @@
 #logoDiv{
     margin: 20px;
     display: inline-block;
-    left: 5%;
+    left: 18%;
     position: relative;
     
 }
 #logo{
-    width: 200px;
+    width: 150px;
 }
 
 /*HEADER*/
-#brandName{
+.headerDiv{
     display: inline-block;
     position: relative;
     left: 7%;
-    font-size: 35px;
     text-align: center;
+    margin: auto;
+}
+.headerDiv h1{
+    font-size: 60px;
     margin: auto;
 }
 #myName{
     position: relative;
-    left: 80%;
+    left: 70%;
     font-family: 'Orbitron', sans-serif;
     text-align: right;
     width: 100px;
@@ -94,6 +97,12 @@
     #logo{
         width: 150px;
     }
+    .headerDiv h1{
+        font-size: 50px;
+    }
+    #myName{
+        left: 80%;
+    }
 }
 
 /*FOR MOBILE*/
@@ -122,12 +131,6 @@
     }
     #logo{
         width: 100px;
-    }
-    #brandName{
-        font-size: 15px;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
     }
     #myName{
         left: 70%;
