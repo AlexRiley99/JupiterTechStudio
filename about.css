@@ -18,72 +18,39 @@
 }
 #aboutDiv{
     grid-column: 2;
-    margin: auto 25px;
+    margin: 20px auto;
+}
+#aboutDiv p{
+    font-size: 25px;
 }
 
+#aboutDiv, #contactDiv{
+    width: 80%;
+}
 #contactDiv{
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
+    grid-row: 1;
     grid-column: 3;
     align-self: start;
-    grid-row: 1;
+    margin: auto;
 }
+
 #contact{
     margin-bottom: 0;
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
 }
-.position{
-    font-weight: bold;
-    font-style: italic;
+#name{
+    font-size: 20px;
 }
-
-#credentialsDiv{
-    margin-top: 5px;
+#email{
+    font-size: 15px;
 }
-#credentials{
-    text-align: center;
-    text-decoration: underline;
-}
-#credentialsGrid {
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-}
-.credential{
-    padding: 10px;
-    margin: auto;
-}
-#bachelorsDegree, #rwdCertification {
-    display: grid;
-    grid-template-columns: 2; 
-    grid-gap: 10px; 
-    text-shadow: 3px 2px 3px var(--darkBlue), -3px -2px 3px var(--darkBlue);
-    color: var(--lightCream);
-    font-size: 17px;
-    margin: 5px;
-    
-}
-#bachelorsDegree{
-    grid-row: 1;
-}
-#rwdCertification{
-    grid-row: 2;
-}
-
-.credential {
-    grid-column: 1; 
-    text-align: left; 
-}
-
-.buttonDiv {
-    grid-column: 2; 
-    text-align: right; 
-}
-
-.viewBtn{
-    width: 100px;
-    padding: 10px;
+#phone{
+    font-size: 13px;
 }
 
 p{

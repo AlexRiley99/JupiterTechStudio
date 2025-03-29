@@ -5,8 +5,21 @@
     --brown: #853e1b;
     --darkBlue: #070236;
 }
-
-.title{
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: auto;
+}
+.headerDiv{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
@@ -14,18 +27,31 @@
     color: var(--darkBlue);
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
+}
 .subtitle{
     text-align: center;
     font-style: italic;
     font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
     color: var(--darkBlue);
     text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
 }
-h3, h2, h4{
+
+/*h3, h2, h4{
     font-family: 'Exo 2', sans-serif;
     text-shadow: 3px 2px 3px var(--darkBlue), -3px -2px 3px var(--darkBlue);
     color: var(--lightCream);
-}
+}*/
 
 .footer_div{
     border-top: 5px double var(--darkBlue);
@@ -43,8 +69,8 @@ h3, h2, h4{
     text-align: center;
     text-decoration: none;
     font-family: 'Orbitron', sans-serif;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    color: var(--lightCream);
+    text-shadow: 2px 1px 3px var(--darkBlue), -2px -1px 3px var(--darkBlue);
     font-weight: bold;
 }
 
@@ -68,27 +94,11 @@ html {
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-@media (max-width: 768px){
-    html{
-        background-size: contain;
-        background-position: center top;
-        height: auto;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
-@media (max-width: 1024px){
-    html{
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    overflow: hidden;
 }
 
-.navbar_div{
+.navbar{
+    width: 100%;
     border-bottom: 5px double var(--darkBlue);
     padding: 10px;
     margin: auto;
@@ -96,7 +106,10 @@ html {
 }
 
 .navBtn{
-    width: 30%;
+    position: sticky;
+    width: 45%;
+    padding: 10px;
+    font-size: 15px;
 }
 .navBtn, button{
     font-family: 'Orbitron', sans-serif;
@@ -104,7 +117,6 @@ html {
     background-color: rgba(20, 3, 175, 0.5);
     color: var(--lightCream);
     margin: auto;
-    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.5s;

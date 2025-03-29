@@ -3,8 +3,12 @@
     margin: auto;
     width: 50%;
 }
-#infoDiv, #contactMe{
-    margin: auto 10px;
+#infoDiv{
+    margin: 10px auto;
+    width: 80%;
+}
+#contactMe{
+    margin: 30px;
 }
 
 #europaHome{
@@ -19,6 +23,7 @@ p{
 #logoDiv{
     margin: 20px;
     display: inline-block;
+    left: 5%;
     position: relative;
     
 }
@@ -27,22 +32,35 @@ p{
 }
 #brandName{
     display: inline-block;
-    position: absolute;
-    top: 125px;
+    position: relative;
+    left: 7%;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
     color: var(--darkBlue);
     text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-    font-size: 100px;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 }
 #myName{
+    position: relative;
+    left: 80%;
+    font-family: 'Orbitron', sans-serif;
     text-align: right;
-    margin-left: 70%;
     width: 100px;
     padding: 0;
+}
+#homeInfo{
+    font-size: 20px;
+}
+#blastOff{
+    font-size: 20px;
+    color: var(--lightCream);
+    text-shadow: 2px 1px 4px var(--darkBlue), -2px -1px 4px var(--darkBlue);
+}
+#sendMessage{
+    font-size: 20px;
+    padding: 10px;
 }
 
 @media (max-width: 1024px){
@@ -50,35 +68,30 @@ p{
         width: 100%;
         text-align: center;
         margin: auto;
-        display: grid;
-        grid-template-columns: repeat(2fr 1fr);
         grid-template-rows: auto;
         gap: 10px;
         align-items: start;
     }
     #infoDiv{
-        grid-column: 1;
-        margin-left: 0;
+        margin: auto;
+
     }
     #contactMe{
         grid-column: 2;
         margin-right: 0;
     }
     #logoDiv{
+        left: 0;
         margin: 20px auto;
         display: block;
         text-align: center;
     }
-    #brandName{
-        position: static;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 50px;
+    #logo{
+        width: 150px;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     #homeContainer{
         width: 100%;
         text-align: center;
@@ -96,6 +109,7 @@ p{
         grid-column: 1;
     }
     #logoDiv{
+        left: 0;
         margin: 20px auto;
         display: block;
         text-align: center;
@@ -104,10 +118,12 @@ p{
         width: 100px;
     }
     #brandName{
-        position: static;
+        font-size: 15px;
         text-align: center;
         margin-left: 10%;
         margin-right: 10%;
-        font-size: 50px;
+    }
+    #myName{
+        left: 70%;
     }
 }

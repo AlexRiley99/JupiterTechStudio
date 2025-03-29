@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jupiter Tech Studio - Home</title>
-  <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" href="Styles.css" />
-  <script src="Script.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupiter Tech Studio - Home</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Styles.css" />
+    <script src="Script.js"></script>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
-  <div class="navbar_div">
-    <navbar>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
       <button class="navBtn" onclick="window.location.href='index'">
         Home
       </button>
       <button class="navBtn" onclick="window.location.href='about'">
         About
       </button>
-    </navbar>
-  </div>
-  <div id="logoDiv"><img src="Images/JTS_Logo.png" id="logo" /></div>
-  <span><div id="brandName">Jupiter Tech Studio</div></span>
-  <div id="myName"><h4>By Alex Riley</h4></div>
-  <h2 class="subtitle">Launching Innovative Solutions</h2>
-  <div id="homeContainer">
-    <div id="infoDiv" class="redSpot">
-      <h3 id="homeInfo">
-        Whether you need a dynamic website or a sleek mobile app, my expertise
-        in both web and mobile development can help bring your ideas to life. I
-        thrive on transforming complex challenges into efficient, user-friendly
-        solutions. Let's work together to make your ideas take flight!
-      </h3>
+    </nav>
+    <div id="logoDiv"><img src="Images/JTS_Logo.png" id="logo" /></div>
+
+    <span
+      ><div class="headerDiv"><h1>Jupiter Tech Studio</h1></div></span
+    >
+    <div id="myName"><p>By Alex Riley</p></div>
+    <div id="homeSubtitle"><h2>Launching Innovative Solutions</h2></div>
+    <div id="homeContainer">
+      <div id="infoDiv" class="redSpot">
+        <p id="homeInfo">
+          Whether you need a dynamic website or a sleek mobile app, my expertise
+          in both web and mobile development can help bring your ideas to life.
+          I thrive on transforming complex challenges into efficient,
+          user-friendly solutions. Let's work together to make your ideas take
+          flight!
+        </p>
+      </div>
+      <div id="contactMe">
+        <p id="blastOff">3-2-1...Blast Off!</p>
+        <a href="mailto:jupitertechstudio@gmail.com"
+          ><button id="sendMessage">Shoot Me A Message</button></a
+        >
+      </div>
     </div>
-    <div id="contactMe">
-      <h3 class="subtitle">3-2-1...Blast Off!</h3>
-      <h3>jupitertechstudio@gmail.com</h3>
-      <a href="mailto:jupitertechstudio@gmail.com"
-        ><button>Shoot Me A Message</button></a
-      >
+    <div class="footer_div">
+      <footer>
+        <p>
+          <a href="https://jupitertechstudio.com">Jupiter Tech Studio</a> |
+          January 2025 | Last Updated: March 28, 2025
+        </p>
+      </footer>
     </div>
-  </div>
-  <div class="footer_div">
-    <footer>
-      <h6>
-        <a href="https://jupitertechstudio.com">Jupiter Tech Studio</a> |
-        January 2025 | Last Updated: March 28, 2025
-      </h6>
-    </footer>
-  </div>
-</body>
+  </body>
+</html>
