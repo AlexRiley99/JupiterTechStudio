@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+  <!--Metas-->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jupiter Tech Studio - About</title>
+
+  <!--Links-->
   <link rel="stylesheet" href="about.css" />
   <link rel="stylesheet" href="Styles.css" />
   <link
@@ -14,38 +18,51 @@
     rel="stylesheet"
   />
 </head>
+
+<!--Body Begins-->
 <body>
+  <!--NAV-->
   <nav class="navbar">
     <button class="navBtn" onclick="window.location.href='index'">Home</button>
     <button class="navBtn" onclick="window.location.href='about'">About</button>
   </nav>
+
+  <!--HEADER-->
   <div class="headerDiv"><h1 id="title">About</h1></div>
   <h2 class="aboutSubtitle">Who I Am and What I Do</h2>
   <div id="aboutPageContainer">
+    <!--Rocketship Image-->
     <div id="rocketContainer">
       <img src="Images/Rocket.png" id="rocketImg" />
     </div>
-    <div id="aboutDiv" class="redSpot">
-      <p>
-        Between earning a degree in software development and working on personal
-        projects, I’ve honed my skills in creating functional and user-friendly
-        solutions that solve real-world problems.
-      </p>
-      <p>
-        I love the process of turning ideas and designs into software. Each
-        project is a chance for me to push my boundaries and learn something
-        new, and I’m excited to keep building my portfolio.
-      </p>
-      <p>
-        What drew me to software development is the problem-solving aspect. It’s
-        like solving a puzzle where every challenge leads to something
-        meaningful at the end.
-      </p>
-      <p>
-        If you’re looking for a developer who’s dedicated, passionate, and
-        always ready to tackle new challenges, I’d love to connect!
-      </p>
-    </div>
+
+    <!--ABOUT-->
+    <section>
+      <div id="aboutDiv" class="redSpot">
+        <p>
+          Between earning a degree in software development and working on
+          personal projects, I’ve honed my skills in creating functional and
+          user-friendly solutions that solve real-world problems.
+        </p>
+        <p>
+          I love the process of turning ideas and designs into software. Each
+          project is a chance for me to push my boundaries and learn something
+          new, and I’m excited to keep building my portfolio.
+        </p>
+        <p>
+          What drew me to software development is the problem-solving aspect.
+          It’s like solving a puzzle where every challenge leads to something
+          meaningful at the end.
+        </p>
+        <p>
+          If you’re looking for a developer who’s dedicated, passionate, and
+          always ready to tackle new challenges, I’d love to connect!
+        </p>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section>
     <div id="columnThree">
       <div id="contactDiv" class="redSpot">
         <p id="contact">Contact</p>
@@ -55,7 +72,7 @@
       </div>
     </div>
   </div>
-
+</section>
   <div class="footer_div">
     <footer>
       <p>
@@ -65,3 +82,4 @@
     </footer>
   </div>
 </body>
+</html>

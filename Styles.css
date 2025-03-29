@@ -1,3 +1,4 @@
+/*ENTIRE PAGE*/
 :root{
     --darkSienna: #300e01;
     --lightCream: #f7eee1;
@@ -5,75 +6,6 @@
     --brown: #853e1b;
     --darkBlue: #070236;
 }
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-body{
-    overflow: auto;
-}
-.headerDiv{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-h1{
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-}
-h2{
-    text-align: center;
-    font-style: italic;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 20px;
-    width: 50%;
-    margin: auto;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
-}
-.subtitle{
-    text-align: center;
-    font-style: italic;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
-}
-
-/*h3, h2, h4{
-    font-family: 'Exo 2', sans-serif;
-    text-shadow: 3px 2px 3px var(--darkBlue), -3px -2px 3px var(--darkBlue);
-    color: var(--lightCream);
-}*/
-
-.footer_div{
-    border-top: 5px double var(--darkBlue);
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
-    padding-bottom: 5px;
-    margin-top: 10px;
-    background: 
-        linear-gradient(90deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
-    width: 100%;
-}
-.footer_div a{
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
-    color: var(--lightCream);
-    text-shadow: 2px 1px 3px var(--darkBlue), -2px -1px 3px var(--darkBlue);
-    font-weight: bold;
-}
-
 html {
     background:
         radial-gradient(ellipse, 
@@ -96,7 +28,44 @@ html {
     background-attachment: fixed;
     overflow: hidden;
 }
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: auto;
+}
 
+.headerDiv{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 4px var(--lightCream), -2px -1px 4px var(--lightCream);
+}
+p{
+    color: #f7eee1;
+    text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
+}
+
+/*NAVIGATION & BUTTONS*/
 .navbar{
     width: 100%;
     border-bottom: 5px double var(--darkBlue);
@@ -121,6 +90,7 @@ html {
     cursor: pointer;
     transition: background-color 0.5s;
 }
+
 button:hover{
     background-color: rgba(23, 3, 202, 1.0);
     box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
@@ -130,10 +100,38 @@ button:active{
     box-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
 }
 
-.redSpot, .descriptionDiv{
+/*DIV STYLING*/
+.redSpot{
     background-color: rgba(48, 14, 1, 0.5);
     border: 5px double var(--redSpot);
     padding: 5px;
     border-radius: 10px;
 }
+
+/*FOOTER*/
+.footer_div{
+    border-top: 5px double var(--darkBlue);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkBlue);
+    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background: 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+    width: 100%;
+}
+.footer_div a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--lightCream);
+    text-shadow: 2px 1px 3px var(--darkBlue), -2px -1px 3px var(--darkBlue);
+    font-weight: bold;
+}
+
+
+
+
+
   

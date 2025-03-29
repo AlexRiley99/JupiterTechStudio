@@ -1,25 +1,11 @@
+/*MAIN CONTENT CONTAINER*/
 #homeContainer{
     text-align: center;
     margin: auto;
     width: 50%;
 }
-#infoDiv{
-    margin: 10px auto;
-    width: 80%;
-}
-#contactMe{
-    margin: 30px;
-}
 
-#europaHome{
-    text-align: center;
-    margin: 20px auto;
-    width: 80%;
-}
-p{
-    color: #f7eee1;
-    text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
-}
+/*LOGO*/
 #logoDiv{
     margin: 20px;
     display: inline-block;
@@ -30,15 +16,13 @@ p{
 #logo{
     width: 200px;
 }
+
+/*HEADER*/
 #brandName{
     display: inline-block;
     position: relative;
     left: 7%;
-    font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
     font-size: 35px;
-    color: var(--darkBlue);
-    text-shadow: 2px 1px 3px var(--lightCream), -2px -1px 3px var(--lightCream);
     text-align: center;
     margin: auto;
 }
@@ -50,19 +34,40 @@ p{
     width: 100px;
     padding: 0;
 }
+
+/*INFO*/
+#infoDiv{
+    margin: 10px auto;
+    width: 80%;
+}
 #homeInfo{
     font-size: 20px;
 }
+
+/*CONTACT ME*/
 #blastOff{
     font-size: 20px;
     color: var(--lightCream);
     text-shadow: 2px 1px 4px var(--darkBlue), -2px -1px 4px var(--darkBlue);
 }
+#contactMe{
+    margin: 30px;
+}
+
 #sendMessage{
     font-size: 20px;
     padding: 10px;
 }
 
+/*EUROPA*/
+#europaHome{
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+/*FOR SPLIT SCREEN & TABLETS*/
 @media (max-width: 1024px){
     #homeContainer{
         width: 100%;
@@ -91,6 +96,7 @@ p{
     }
 }
 
+/*FOR MOBILE*/
 @media (max-width: 600px){
     #homeContainer{
         width: 100%;

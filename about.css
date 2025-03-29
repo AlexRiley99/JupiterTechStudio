@@ -27,6 +27,7 @@
 #aboutDiv, #contactDiv{
     width: 80%;
 }
+
 #contactDiv{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
@@ -35,7 +36,6 @@
     align-self: start;
     margin: auto;
 }
-
 #contact{
     margin-bottom: 0;
     text-decoration: underline;
@@ -52,12 +52,6 @@
 #phone{
     font-size: 13px;
 }
-
-p{
-    color: #f7eee1;
-    text-shadow: 2px 1px 3px #070236, -2px -1px 3px #070236;
-}
-
 
 @media (max-width: 1024px){
     #aboutPageContainer{
